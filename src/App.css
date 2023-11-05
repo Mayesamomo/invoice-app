@@ -1,0 +1,31 @@
+.ant-pagination-item {
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    color: #555;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.ant-pagination-item-active {
+    background-color: #1890ff;
+    color: #fff;
+    border: 1px solid #1890ff;
+}
+
+/* Style for previous and next buttons */
+.ant-pagination-prev,
+.ant-pagination-next {
+    border: 1px solid #d9d9d9;
+    background-color: #fff;
+    color: #555;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ant-pagination-prev:hover,
+.ant-pagination-next:hover {
+    background-color: #1890ff;
+    color: #fff;
+    border: 1px solid #1890ff;
+}
